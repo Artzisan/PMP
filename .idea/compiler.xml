@@ -2,33 +2,87 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="server-gateway" />
+        <module name="service_user" />
+        <module name="service_hosp_client" />
+        <module name="service-ronlianyun" />
+        <module name="rabbit_util" />
+        <module name="service-task" />
+        <module name="service-oss" />
+        <module name="service-hosp" />
+        <module name="service-order" />
         <module name="common_util" />
+        <module name="service-cmn" />
+        <module name="service-msm" />
+        <module name="service_order_client" />
+        <module name="service_user_client" />
+        <module name="seg" />
+        <module name="service-user" />
+        <module name="service-statistics" />
         <module name="service_util" />
         <module name="model" />
-        <module name="service_user" />
+        <module name="service_cmn_client" />
+        <module name="hospital-manage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="8" />
-      <module name="common_util" target="8" />
-      <module name="model" target="8" />
-      <module name="service" target="8" />
-      <module name="service_user" target="8" />
-      <module name="service_util" target="8" />
-      <module name="yygh_parent" target="1.5" />
+      <module name="common" target="1.8" />
+      <module name="common_util" target="1.8" />
+      <module name="hospital-manage" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="rabbit_util" target="1.8" />
+      <module name="seg" target="1.8" />
+      <module name="server-gateway" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-client" target="1.8" />
+      <module name="service-cmn" target="1.8" />
+      <module name="service-hosp" target="1.8" />
+      <module name="service-msm" target="1.8" />
+      <module name="service-order" target="1.8" />
+      <module name="service-oss" target="1.8" />
+      <module name="service-ronlianyun" target="1.8" />
+      <module name="service-statistics" target="1.8" />
+      <module name="service-task" target="1.8" />
+      <module name="service-user" target="1.8" />
+      <module name="service_cmn_client" target="1.8" />
+      <module name="service_hosp_client" target="1.8" />
+      <module name="service_order_client" target="1.8" />
+      <module name="service_user" target="1.8" />
+      <module name="service_user_client" target="1.8" />
+      <module name="service_util" target="1.8" />
+      <module name="yygh_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="common_util" options="-parameters" />
+      <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
+      <module name="rabbit_util" options="-parameters" />
+      <module name="seg" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="service-client" options="-parameters" />
+      <module name="service-cmn" options="-parameters" />
+      <module name="service-hosp" options="-parameters" />
+      <module name="service-msm" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service-ronlianyun" options="-parameters" />
+      <module name="service-statistics" options="-parameters" />
+      <module name="service-task" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="service_cmn_client" options="-parameters" />
+      <module name="service_hosp_client" options="-parameters" />
+      <module name="service_order_client" options="-parameters" />
       <module name="service_user" options="-parameters" />
+      <module name="service_user_client" options="-parameters" />
       <module name="service_util" options="-parameters" />
       <module name="yygh_parent" options="-parameters" />
     </option>

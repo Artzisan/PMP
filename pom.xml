@@ -6,6 +6,9 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>service-client</module>
+        <module>seg</module>
+        <module>server-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -125,5 +128,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!-- 项目打包时会将java目录中的*.xml文件也进行打包 -->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 
 </project>

@@ -4,9 +4,25 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common_util/common_util.iml" filepath="$PROJECT_DIR$/common/common_util/common_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital-manage/hospital-manage.iml" filepath="$PROJECT_DIR$/hospital-manage/hospital-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/rabbit_util/rabbit_util.iml" filepath="$PROJECT_DIR$/common/rabbit_util/rabbit_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-gateway/server-gateway.iml" filepath="$PROJECT_DIR$/server-gateway/server-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service/service_user/service_user.iml" filepath="$PROJECT_DIR$/service/service_user/service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-client.iml" filepath="$PROJECT_DIR$/service-client/service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-cmn/service-cmn.iml" filepath="$PROJECT_DIR$/service/service-cmn/service-cmn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-hosp/service-hosp.iml" filepath="$PROJECT_DIR$/service/service-hosp/service-hosp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-msm/service-msm.iml" filepath="$PROJECT_DIR$/service/service-msm/service-msm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-order/service-order.iml" filepath="$PROJECT_DIR$/service/service-order/service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/service/service-oss/service-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-statistics/service-statistics.iml" filepath="$PROJECT_DIR$/service/service-statistics/service-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-task/service-task.iml" filepath="$PROJECT_DIR$/service/service-task/service-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-user/service-user.iml" filepath="$PROJECT_DIR$/service/service-user/service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service_cmn_client/service_cmn_client.iml" filepath="$PROJECT_DIR$/service-client/service_cmn_client/service_cmn_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service_hosp_client/service_hosp_client.iml" filepath="$PROJECT_DIR$/service-client/service_hosp_client/service_hosp_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service_order_client/service_order_client.iml" filepath="$PROJECT_DIR$/service-client/service_order_client/service_order_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-user/service_user.iml" filepath="$PROJECT_DIR$/service/service-user/service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service_user_client/service_user_client.iml" filepath="$PROJECT_DIR$/service-client/service_user_client/service_user_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/service_util/service_util.iml" filepath="$PROJECT_DIR$/common/service_util/service_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yygh_parent.iml" filepath="$PROJECT_DIR$/yygh_parent.iml" />
     </modules>
