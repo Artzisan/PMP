@@ -8,9 +8,7 @@
 
   后端：springboot+nacos+gateway网关搭建
 
-  前端: 1、用户的前端架构是使用了服务端渲染技术nuxt
-
-       2、管理员的前端使用了 Vue 2.x 的 Element UI 
+  前端: 1、用户的前端架构是使用了服务端渲染技术nuxt; 2、管理员的前端使用了 Vue 2.x 的 Element UI 
 
 #### 使用的技术点
 后端技术：
